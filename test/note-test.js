@@ -12,6 +12,6 @@
 
 function testNotes(){
   var note = new Note();
-  assert.isTrue(note._name === "unknown");
+  assert.isTrue(note._name === "Some text to start");
 };
 testNotes();
