@@ -15,4 +15,6 @@ Note.prototype = (function(){
   function content(){
     return this.text;
   }
-});
+return { content }
+
+})();

@@ -9,9 +9,12 @@
 // As a programmer
 // I can see the full text of an individual note on its own page
 // So I can see all the information in the note
+'use strict'
 
-function testNotes(){
-  var note = new Note();
-  assert.isTrue(note._name === "Some text to start");
-};
-testNotes();
+describe('Note', ()=> { //()=> == another way of saying function
+  it('Creates a note with text',() => {
+    var newNote = new Note('First note')
+    expect(newNote.content()).toEq('First note')
+
+  })
+})

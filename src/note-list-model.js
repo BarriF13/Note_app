@@ -1,3 +1,5 @@
+'use strict'
+
 function NoteList(){
   this.list = [];//array for holding all the notes
 }
