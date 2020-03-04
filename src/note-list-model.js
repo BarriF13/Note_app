@@ -5,7 +5,8 @@ function NoteList(){
 };
 
 NoteList.prototype= (function(){
-  function showList(){
+  //function showList(){
+    function slist(){
     return this.list;
   }
 
@@ -15,7 +16,7 @@ NoteList.prototype= (function(){
   } 
 
   return {
-    showList: showList,
+    slist: slist,
     add: add
   };
 

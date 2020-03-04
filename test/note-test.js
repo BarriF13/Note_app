@@ -9,12 +9,12 @@
 // As a programmer
 // I can see the full text of an individual note on its own page
 // So I can see all the information in the note
-'use strict'
+// 'use strict'
 
 describe('Note', ()=> { //()=> == another way of saying function
   it('Creates a note with text',() => {
-    var newNote = new Note('First note')
-    expect(newNote.content()).toEq('First note')
+    var firstNote = new Note('First note')
+    expect(firstNote.content()).toEq('First note')
 
   })
 })
